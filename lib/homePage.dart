@@ -7,7 +7,7 @@ class HomePage extends StatelessWidget {
     final String name = "kasyap";
     return Material(
       child: Scaffold(
-        appBar: AppBar(title: Text("Catalog App")),
+        appBar: AppBar(title: Center(child: Text("Catalog App"))),
         body: Center(
           child: Container(
             child: Text("welcome to $days days of flutter by $name"),
